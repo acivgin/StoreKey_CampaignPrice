@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreKey_CampaignPrice.Test", "StoreKey_CampaignPrice.Test\StoreKey_CampaignPrice.Test.csproj", "{382C3E37-380B-4B0C-8292-DE1F20A3F117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreKey_CampaignPrice.Business", "StoreKey_CampaignPrice.Business\StoreKey_CampaignPrice.Business.csproj", "{D15089E1-BE75-47C5-8B2F-C59E9539277E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{382C3E37-380B-4B0C-8292-DE1F20A3F117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382C3E37-380B-4B0C-8292-DE1F20A3F117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382C3E37-380B-4B0C-8292-DE1F20A3F117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382C3E37-380B-4B0C-8292-DE1F20A3F117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15089E1-BE75-47C5-8B2F-C59E9539277E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15089E1-BE75-47C5-8B2F-C59E9539277E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15089E1-BE75-47C5-8B2F-C59E9539277E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15089E1-BE75-47C5-8B2F-C59E9539277E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42552253-4054-49ED-B422-603A781A5AFA}
+	EndGlobalSection
+EndGlobal
