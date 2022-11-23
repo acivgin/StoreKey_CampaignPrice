@@ -82,7 +82,7 @@
                 return products[0].OriginalPrice; //???
 
 
-            List<Product> originalList = products.GetClone();
+            //List<Product> originalList = products.GetClone();
 
             if (products.Count() % 2 == 0)
             {
@@ -90,8 +90,9 @@
             }
             else
             {
+                var last = products.Last().OriginalPrice;
                 products.RemoveAt(products.Count() - 1);
-                return products.Sum(p => p.CampaignPrice) / 2 + originalList.Last().OriginalPrice;
+                return products.Sum(p => p.CampaignPrice) / 2 + last;
             }
 
         }
